@@ -25,7 +25,7 @@ async function signTx() {
 
   const mnemonic = process.env['MNEMONIC'];
   if (mnemonic) {
-    multisigAddress = 'terra1qye46hulwvl0n2q4us7u69j2emz228jnzswqp0';
+    multisigAddress = process.env['MULTISIG_ADDRESS'];
     signerKey = new MnemonicKey({
       mnemonic
     });
