@@ -1,0 +1,1 @@
+{"type":"core/StdTx","value":{"msg":[{"type":"wasm/MsgInstantiateContract","value":{"owner":"terra18mrvc70hpcu3nakd6mw09awhzyyc0c9w6vspna","code_id":"6397","init_msg":"e30=","init_coins":[],"migratable":false}}],"fee":{"amount":[{ "denom": "uluna", "amount": "2000000" }],"gas":"200000"},"signatures":null,"memo":""}}
